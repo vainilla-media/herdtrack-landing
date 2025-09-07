@@ -14,9 +14,9 @@ const wrapperClass = $derived(
 );
 </script>
 
-<button class="relative disabled:pointer-events-none disabled:opacity-75" disabled={loading}>
+<button class="relative w-full disabled:pointer-events-none disabled:opacity-75" disabled={loading}>
 	<div
-		class="{wrapperClass} inline-flex h-10 cursor-pointer items-center justify-center gap-2 rounded-lg px-4 py-2 font-medium transition-all sm:justify-start"
+		class="{wrapperClass} inline-flex h-10 w-full cursor-pointer items-center justify-center gap-2 rounded-lg px-4 py-2 font-medium transition-all sm:justify-start"
 	>
 		<i class="bi bi-envelope-fill"></i>
 		Subscribirme

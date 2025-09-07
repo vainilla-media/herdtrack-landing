@@ -2,7 +2,7 @@
 import HerdtrackLogo from './HerdtrackLogo.svelte';
 </script>
 
-<footer class="bg-neutral-800 py-16 text-white">
+<footer class="bg-neutral-800 px-4 py-16 text-white">
 	<div class="mx-auto max-w-5xl">
 		<div class="max-w-sm">
 			<HerdtrackLogo class="h-12" dark />

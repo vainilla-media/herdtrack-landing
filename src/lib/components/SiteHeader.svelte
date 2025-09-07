@@ -3,12 +3,12 @@ import HerdtrackLogo from './HerdtrackLogo.svelte';
 </script>
 
 <header class="sticky top-0 z-20 h-16 border-b border-neutral-200 bg-white px-4 shadow-md/5">
-	<div class="mx-auto flex h-full max-w-5xl items-center">
+	<div class="mx-auto flex h-full max-w-5xl items-center justify-center">
 		<a href="#top">
 			<HerdtrackLogo class="relative bottom-0.5 h-6" />
 		</a>
-		<div class="grow"></div>
-		<nav class="flex items-center gap-4">
+		<div class="hidden grow sm:block"></div>
+		<nav class="hidden items-center gap-4 sm:flex">
 			<a class="font-medium text-lime-800 transition-all hover:text-lime-600" href="#features">
 				Características
 			</a>
