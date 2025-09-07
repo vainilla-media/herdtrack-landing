@@ -1,8 +1,8 @@
 import fetcher from '@saez-juan/fetcher';
 import type { RequestHandler } from './$types';
+import { env } from '$env/dynamic/private';
 
-const GMACRO_URL =
-	'https://script.google.com/macros/s/AKfycbxWgPuko-srhueHkLwx9l90A-boaRjyPIkXEIqJ-SFzEJpEVlvOFkIgFH5xykfv9aV4/exec';
+const GMACRO_URL = `https://script.google.com/macros/s/${env.GMACRO_ID}/exec`;
 
 export const POST: RequestHandler = async ({ request }) => {
 	let email = '';
