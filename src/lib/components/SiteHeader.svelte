@@ -5,8 +5,8 @@ import HerdtrackLogo from './HerdtrackLogo.svelte';
 <header class="sticky top-0 z-20 h-16 border-b border-neutral-200 bg-white px-4 shadow-md/5">
 	<div class="mx-auto flex h-full max-w-5xl items-center justify-center">
 		<a href="#top">
+			<span class="absolute opacity-0">Go to main landing</span>
 			<HerdtrackLogo class="relative bottom-0.5 h-6" />
-			<span class="invisible absolute">Go to top</span>
 		</a>
 		<div class="hidden grow sm:block"></div>
 		<nav class="hidden items-center gap-4 sm:flex">
