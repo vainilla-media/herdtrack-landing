@@ -11,7 +11,7 @@ import HerdtrackLogo from './HerdtrackLogo.svelte';
 				está transformando la industria bovina.
 			</p>
 		</div>
-		<div class="border-t border-neutral-700 pt-8 text-center text-sm text-neutral-500">
+		<div class="border-t border-neutral-700 pt-8 text-center text-sm text-neutral-300">
 			2025 &copy; Todos los derechos reservados.
 			<a
 				target="_blank"

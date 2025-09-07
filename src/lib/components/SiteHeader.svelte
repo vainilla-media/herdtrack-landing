@@ -6,6 +6,7 @@ import HerdtrackLogo from './HerdtrackLogo.svelte';
 	<div class="mx-auto flex h-full max-w-5xl items-center justify-center">
 		<a href="#top">
 			<HerdtrackLogo class="relative bottom-0.5 h-6" />
+			<span class="invisible absolute">Go to top</span>
 		</a>
 		<div class="hidden grow sm:block"></div>
 		<nav class="hidden items-center gap-4 sm:flex">
@@ -20,7 +21,7 @@ import HerdtrackLogo from './HerdtrackLogo.svelte';
 			</a>
 			<a
 				href="#newsletter"
-				class="inline-flex gap-2 rounded-md bg-lime-600 px-3 py-1.5 text-white transition-all hover:bg-lime-500"
+				class="inline-flex gap-2 rounded-md bg-lime-700 px-3 py-1.5 text-white transition-all hover:bg-lime-600"
 			>
 				<i class="bi bi-bell-fill"></i>
 				Notificarme

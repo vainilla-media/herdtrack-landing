@@ -8,8 +8,8 @@ const { loading = false, variant = 'default' }: ButtonProps = $props();
 
 const wrapperClass = $derived(
 	{
-		default: ' bg-lime-600 text-white hover:bg-lime-500 active:bg-lime-700',
-		light: 'hover:bg-lime-100 active:bg-lime-200 text-lime-600 bg-white'
+		default: ' bg-lime-700 text-white hover:bg-lime-600 active:bg-lime-700',
+		light: 'hover:bg-lime-100 active:bg-lime-200 text-lime-700 bg-white'
 	}[variant]
 );
 </script>

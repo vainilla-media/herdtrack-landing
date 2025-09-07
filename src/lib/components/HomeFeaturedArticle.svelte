@@ -54,13 +54,13 @@ const hlItems = [
 			<div
 				class="flex h-full grow flex-col place-content-center place-items-center rounded-lg bg-lime-100 p-1 lg:h-auto"
 			>
-				<strong class="text-2xl font-bold text-lime-600">-25%</strong>
+				<strong class="text-2xl font-bold text-lime-700">-25%</strong>
 				<p class="text-sm text-neutral-700">Huella de Carbono</p>
 			</div>
 			<div
 				class="flex h-full grow flex-col place-content-center place-items-center rounded-lg bg-lime-100 p-1"
 			>
-				<strong class="text-2xl font-bold text-lime-600">+40%</strong>
+				<strong class="text-2xl font-bold text-lime-700">+40%</strong>
 				<p class="text-sm text-neutral-700">Eficiencia</p>
 			</div>
 		</div>
