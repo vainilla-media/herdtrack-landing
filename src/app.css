@@ -1,0 +1,6 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+
+@theme {
+	--default-font-family: 'Inter', sans-serif;
+}
