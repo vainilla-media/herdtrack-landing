@@ -18,7 +18,7 @@ const onSubscribe = () => (isSubscribed = true);
 </script>
 
 <section
-	class="home-first-paint-wrapper z-10 flex flex-col place-content-center-safe place-items-center bg-gradient-to-b from-lime-50 px-4"
+	class="home-first-paint-wrapper z-10 flex flex-col place-content-center-safe place-items-center bg-gradient-to-b from-lime-50 px-4 py-8"
 	id="top"
 >
 	<div
